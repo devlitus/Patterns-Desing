@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DVD</OriginalElement>
+  <nodes>
+    <node x="541.0" y="347.0">\DVD_CapaSimple</node>
+    <node x="187.0" y="632.0">\FabricaDiscos_CapaSimple</node>
+    <node x="258.125" y="79.0">\Disco</node>
+    <node x="316.625" y="0.0">\Prototipo</node>
+    <node x="0.0" y="632.0">\FabricaDiscos_DobleCapa</node>
+    <node x="-8.0" y="347.0">\BluRay_CapaSimple</node>
+    <node x="98.75" y="509.0">\FabricaDiscos</node>
+    <node x="358.0" y="347.0">\DVD_DobleCapa</node>
+    <node x="511.5" y="268.0">\DVD</node>
+    <node x="175.0" y="347.0">\BluRay_CapaDoble</node>
+    <node x="139.0" y="268.0">\BluRay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\BluRay_CapaDoble" target="\BluRay">
+      <point x="0.0" y="-58.5" />
+      <point x="264.5" y="322.0" />
+      <point x="190.0" y="322.0" />
+      <point x="17.0" y="14.5" />
+    </edge>
+    <edge source="\BluRay_CapaSimple" target="\BluRay">
+      <point x="0.0" y="-58.5" />
+      <point x="81.5" y="322.0" />
+      <point x="156.0" y="322.0" />
+      <point x="-17.0" y="14.5" />
+    </edge>
+    <edge source="\BluRay" target="\Disco">
+      <point x="0.0" y="-14.5" />
+      <point x="173.0" y="243.0" />
+      <point x="311.875" y="243.0" />
+      <point x="-45.75" y="69.5" />
+    </edge>
+    <edge source="\DVD" target="\Disco">
+      <point x="0.0" y="-14.5" />
+      <point x="539.0" y="243.0" />
+      <point x="403.375" y="243.0" />
+      <point x="45.75" y="69.5" />
+    </edge>
+    <edge source="\FabricaDiscos_CapaSimple" target="\FabricaDiscos">
+      <point x="0.0" y="-36.5" />
+      <point x="273.0" y="607.0" />
+      <point x="214.0" y="607.0" />
+      <point x="35.75" y="36.5" />
+    </edge>
+    <edge source="\DVD_DobleCapa" target="\DVD">
+      <point x="0.0" y="-58.5" />
+      <point x="447.5" y="322.0" />
+      <point x="525.25" y="322.0" />
+      <point x="-13.75" y="14.5" />
+    </edge>
+    <edge source="\Disco" target="\Prototipo">
+      <point x="0.0" y="-69.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="\FabricaDiscos_DobleCapa" target="\FabricaDiscos">
+      <point x="0.0" y="-36.5" />
+      <point x="83.5" y="607.0" />
+      <point x="142.5" y="607.0" />
+      <point x="-35.75" y="36.5" />
+    </edge>
+    <edge source="\DVD_CapaSimple" target="\DVD">
+      <point x="0.0" y="-58.5" />
+      <point x="630.5" y="322.0" />
+      <point x="552.75" y="322.0" />
+      <point x="13.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6871657754010695" x="575.0155642023346" y="352.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
